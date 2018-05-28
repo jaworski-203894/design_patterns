@@ -24,12 +24,6 @@ public class Building {
     private boolean petFriendlyFlag;
     private boolean commercialGroundFloorFlag;
 
-    public Building(Long id, String streetName, int streetNumber, String zipCode) {
-        this.id = id;
-        this.streetName = streetName;
-        this.streetNumber = streetNumber;
-        this.zipCode = zipCode;
-    }
 
     public Building(Long id, String streetName, int streetNumber, String zipCode, String buildingCompanyName, String landlordName, Date constructionYear, Date constructionEndYear, long flatsNumber, long completeRentArea, String completeRentAreaUnit, Map<String, String> flatsDescription, Map<String, Long> flatsPrices, boolean hasCarPark, boolean hasGarden, boolean hasFence, boolean petFriendlyFlag, boolean commercialGroundFloorFlag) {
         this.id = id;
@@ -52,77 +46,6 @@ public class Building {
         this.commercialGroundFloorFlag = commercialGroundFloorFlag;
     }
 
-    public Building(Date constructionEndYear, long flatsNumber, long completeRentArea, String completeRentAreaUnit, Map<String, String> flatsDescription, Map<String, Long> flatsPrices, boolean hasCarPark, boolean hasGarden) {
-        this.constructionEndYear = constructionEndYear;
-        this.flatsNumber = flatsNumber;
-        this.completeRentArea = completeRentArea;
-        this.completeRentAreaUnit = completeRentAreaUnit;
-        this.flatsDescription = flatsDescription;
-        this.flatsPrices = flatsPrices;
-        this.hasCarPark = hasCarPark;
-        this.hasGarden = hasGarden;
-    }
-
-    public Building(Long id, String streetName, int streetNumber, long completeRentArea, String completeRentAreaUnit, Map<String, String> flatsDescription, Map<String, Long> flatsPrices, boolean hasCarPark, boolean hasGarden, boolean hasFence, boolean petFriendlyFlag, boolean commercialGroundFloorFlag) {
-        this.id = id;
-        this.streetName = streetName;
-        this.streetNumber = streetNumber;
-        this.completeRentArea = completeRentArea;
-        this.completeRentAreaUnit = completeRentAreaUnit;
-        this.flatsDescription = flatsDescription;
-        this.flatsPrices = flatsPrices;
-        this.hasCarPark = hasCarPark;
-        this.hasGarden = hasGarden;
-        this.hasFence = hasFence;
-        this.petFriendlyFlag = petFriendlyFlag;
-        this.commercialGroundFloorFlag = commercialGroundFloorFlag;
-    }
-
-    public Building(Long id, String streetName, int streetNumber, String zipCode, String buildingCompanyName, String landlordName, Date constructionYear, Date constructionEndYear, long completeRentArea, boolean hasCarPark, boolean hasFence, boolean commercialGroundFloorFlag) {
-        this.id = id;
-        this.streetName = streetName;
-        this.streetNumber = streetNumber;
-        this.zipCode = zipCode;
-        this.buildingCompanyName = buildingCompanyName;
-        this.landlordName = landlordName;
-        this.constructionYear = constructionYear;
-        this.constructionEndYear = constructionEndYear;
-        this.completeRentArea = completeRentArea;
-        this.hasCarPark = hasCarPark;
-        this.hasFence = hasFence;
-        this.commercialGroundFloorFlag = commercialGroundFloorFlag;
-    }
-
-    public Building(Long id, String streetName, int streetNumber, String zipCode, String buildingCompanyName, String landlordName, Date constructionYear, Date constructionEndYear, long flatsNumber, long completeRentArea, String completeRentAreaUnit) {
-        this.id = id;
-        this.streetName = streetName;
-        this.streetNumber = streetNumber;
-        this.zipCode = zipCode;
-        this.buildingCompanyName = buildingCompanyName;
-        this.landlordName = landlordName;
-        this.constructionYear = constructionYear;
-        this.constructionEndYear = constructionEndYear;
-        this.flatsNumber = flatsNumber;
-        this.completeRentArea = completeRentArea;
-        this.completeRentAreaUnit = completeRentAreaUnit;
-    }
-
-    public Building(Long id, String streetName, int streetNumber, String zipCode, Date constructionYear, Date constructionEndYear, long flatsNumber, Map<String, String> flatsDescription, Map<String, Long> flatsPrices, boolean hasCarPark, boolean hasGarden, boolean hasFence, boolean petFriendlyFlag, boolean commercialGroundFloorFlag) {
-        this.id = id;
-        this.streetName = streetName;
-        this.streetNumber = streetNumber;
-        this.zipCode = zipCode;
-        this.constructionYear = constructionYear;
-        this.constructionEndYear = constructionEndYear;
-        this.flatsNumber = flatsNumber;
-        this.flatsDescription = flatsDescription;
-        this.flatsPrices = flatsPrices;
-        this.hasCarPark = hasCarPark;
-        this.hasGarden = hasGarden;
-        this.hasFence = hasFence;
-        this.petFriendlyFlag = petFriendlyFlag;
-        this.commercialGroundFloorFlag = commercialGroundFloorFlag;
-    }
 
     public Long getId() {
         return id;
