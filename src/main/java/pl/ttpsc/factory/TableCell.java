@@ -1,4 +1,4 @@
 package pl.ttpsc.factory;
 
-public class TableCell {
+public abstract class TableCell {
 }
