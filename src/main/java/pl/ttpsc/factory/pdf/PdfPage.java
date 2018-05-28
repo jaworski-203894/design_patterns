@@ -1,4 +1,6 @@
 package pl.ttpsc.factory.pdf;
 
-public class PdfPage {
+import pl.ttpsc.factory.Page;
+
+public class PdfPage extends Page {
 }

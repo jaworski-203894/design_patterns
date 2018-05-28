@@ -1,7 +1,8 @@
-package pl.ttpsc.factory;
+package pl.ttpsc.factory.pdf;
 
-import pl.ttpsc.factory.pdf.PdfPage;
-import pl.ttpsc.factory.pdf.PdfTable;
+import pl.ttpsc.factory.AbstractFactory;
+import pl.ttpsc.factory.Page;
+import pl.ttpsc.factory.Table;
 
 public class PdfFactory implements AbstractFactory {
     @Override

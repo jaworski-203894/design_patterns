@@ -1,7 +1,8 @@
-package pl.ttpsc.factory;
+package pl.ttpsc.factory.html;
 
-import pl.ttpsc.factory.html.HtmlPage;
-import pl.ttpsc.factory.html.HtmlTable;
+import pl.ttpsc.factory.AbstractFactory;
+import pl.ttpsc.factory.Page;
+import pl.ttpsc.factory.Table;
 
 public class HtmlFactory implements AbstractFactory {
     @Override

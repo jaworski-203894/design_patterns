@@ -1,4 +1,6 @@
 package pl.ttpsc.factory.html;
 
-public class HtmlPage {
+import pl.ttpsc.factory.Page;
+
+public class HtmlPage extends Page {
 }

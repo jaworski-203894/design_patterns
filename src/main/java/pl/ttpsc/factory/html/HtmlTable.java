@@ -1,4 +1,11 @@
 package pl.ttpsc.factory.html;
 
-public class HtmlTable {
+import pl.ttpsc.factory.Table;
+import pl.ttpsc.factory.TableCell;
+
+public class HtmlTable extends Table {
+    @Override
+    public TableCell createTableCell() {
+        return new TableCell();
+    }
 }

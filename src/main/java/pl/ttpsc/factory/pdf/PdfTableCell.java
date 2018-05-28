@@ -1,4 +1,6 @@
 package pl.ttpsc.factory.pdf;
 
-public class PdfTableCell {
+import pl.ttpsc.factory.TableCell;
+
+public class PdfTableCell extends TableCell {
 }

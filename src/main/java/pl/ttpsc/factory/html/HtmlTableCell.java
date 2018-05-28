@@ -1,4 +1,6 @@
 package pl.ttpsc.factory.html;
 
-public class HtmlTableCell {
+import pl.ttpsc.factory.TableCell;
+
+public class HtmlTableCell extends TableCell {
 }
